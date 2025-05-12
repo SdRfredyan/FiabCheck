@@ -8,7 +8,7 @@ import sqlite3
 
 app = Flask(__name__)
 
-@app.route('/')  #s
+@app.route('/')  #sa
 def accueil():
     conn = sqlite3.connect('database.db')
     cursor = conn.cursor()
